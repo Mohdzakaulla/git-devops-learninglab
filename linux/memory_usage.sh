@@ -1,3 +1,4 @@
+
 #!/bin/bash
- echo  "========memoru usage ========="
+ echo  "========memoy usage ========="
 free -h 
