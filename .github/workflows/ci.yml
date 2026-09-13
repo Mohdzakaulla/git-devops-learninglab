@@ -26,3 +26,4 @@ jobs:
           git status
           test -f README.md
           test -f .gitignore 
+          test -f scripts
