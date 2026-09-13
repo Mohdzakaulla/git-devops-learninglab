@@ -1,0 +1,28 @@
+name: DevOps Learning Lab CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  basic-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show Git version
+        run: git --version
+
+      - name: Check repository
+        run: |
+          echo "Git DevOps Learning Lab"
+          echo "Repository checkout successful"
+          git status
+          test -f README.md
+          test -f .gitignore 
