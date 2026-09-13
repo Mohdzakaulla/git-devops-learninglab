@@ -1,3 +1,3 @@
  # Git Devops Learning Lab
 
-![Git devops banner] (images/fit-devops-learning.png) 
+![Git devops banner] (https://www.freecodecamp.org/news/content/images/size/w2000/2022/07/git-github.png) 
